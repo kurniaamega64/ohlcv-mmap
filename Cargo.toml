@@ -1,0 +1,14 @@
+[package]
+build = "build.rs"
+name = "ohlcv-mmap"
+version = "0.1.0"
+edition = "2021"
+authors = ["Vault Labs"]
+license = "MIT"
+description = "OHLCV mmap-shaped store — stub bars as jobs."
+readme = "README.md"
+repository = "https://github.com/vaultlabs/ohlcv-mmap"
+
+[[bin]]
+name = "ohlcv-mmap"
+path = "src/main.rs"
